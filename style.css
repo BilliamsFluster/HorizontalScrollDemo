@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: initial;
+    overflow: hidden;
+}
+html,body{
+    width: 100%;
+    min-height: 100%;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+    background: black;
+    color: white;
+}
+h2{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 85%;
+    border-left: 3px solid #ff98a2;
+    padding: 25px;
+    margin: 0;
+
+}
+h2 span{
+    display: block;
+}
+h3{
+    font-size: 20px;
+    font-stretch: expanded;
+    color: #ff98a2;
+    line-height: 100%;
+}
+h2,h3,h4{
+    text-transform: uppercase;
+
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+section{
+    padding: 50 0;
+}
+.col
+{
+    width: 50%;
+}
+#vertical
+{
+    height: 200vh;
+    width: 100vw;
+    
+}
+.verticalContent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.verticalContent .colLeft{
+    height:100%;
+}
+.verticalContent .colRight
+{
+    width: 40%;
+}
+.verticalItem:not(:last-child){
+    margin-bottom: 240px;
+}
+
+#horizontal
+{
+    padding:100px 0;
+}
+.horizontalContent
+{
+    display: flex;
+}
+.horizontalItem{
+    border:1px solid white;
+    padding: 200px 150px;
+}
+.horizontalItem:not(:last-child){
+    margin-right: 50px;
+
+}
+.horizontalNum
+{
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: condensed;
+    color: #ff98a2;
+}
+
